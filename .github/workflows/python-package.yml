@@ -30,7 +30,7 @@ jobs:
         python -m pip install pylint pytest pandas
     - name: Lint with pylint
       run: |
-        pylint
+        pylint 
     - name: Test with pytest
       run: |
-        pytest
+        pytest life_expectancy.cleaning
