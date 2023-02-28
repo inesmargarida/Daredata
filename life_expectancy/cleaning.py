@@ -1,4 +1,4 @@
-"""Module providing function clean_data"""
+"""Module for cleaning data"""
 
 import pathlib
 import argparse
